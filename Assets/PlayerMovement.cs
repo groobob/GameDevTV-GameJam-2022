@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         // We hit a wall this frame, which stops the movement short
         // But we still have room to move up
         // We cancel out the rightward velocity, but keep the upward velocity to then compute on the next loop through
-        if (m_ScaledVelocity.magnitude > 0.0001f)
+        while (m_ScaledVelocity.magnitude > 0.0001f)
         {
             // Check for collision before moving
             RaycastHit2D _Hit = Physics2D.BoxCast(transform.position, new Vector2(0.5f, 1.0f), 0, m_ScaledVelocity.normalized, m_ScaledVelocity.magnitude);
