@@ -11,17 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     bool m_Grounded = false;
 
-    bool m_JumpPressed = false;
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            m_JumpPressed = true;
-        }
-    }
-
-    void FixedUpdate()
+    public void Move(InputFrame a_Input)
     {
         if (!m_Grounded)
         {
@@ -31,21 +21,19 @@ public class PlayerMovement : MonoBehaviour
         {
             m_Velocity = Vector3.zero;
 
-            if (Input.GetKey(KeyCode.A))
+            if (a_Input.Left)
             {
                 m_Velocity.x -= m_MovementSpeed;
             }
 
-            if (Input.GetKey(KeyCode.D))
+            if (a_Input.Right)
             {
                 m_Velocity.x += m_MovementSpeed;
             }
         }
 
-        if (m_JumpPressed)
+        if (a_Input.Jump)
         {
-            m_JumpPressed = false;
-
             if (m_Grounded)
             {
                 m_Velocity.y = m_JumpForce;
@@ -104,4 +92,11 @@ public class PlayerMovement : MonoBehaviour
             m_Grounded = false;
         }
     }
+}
+
+public class InputFrame
+{
+    public bool Left;
+    public bool Right;
+    public bool Jump;
 }
