@@ -16,7 +16,7 @@ public class TurretFire : MonoBehaviour
         if(cooldown > firerate)
         {
             GameObject instantiatedBullet = Instantiate(bullet, transform.position - new Vector3(0, 0, 5), Quaternion.identity);
-            instantiatedBullet.transform.parent = Canvas.transform;
+            instantiatedBullet.transform.SetParent(Canvas.transform);
             Rigidbody2D instantiatedBulletRB = instantiatedBullet.GetComponent<Rigidbody2D>();
             instantiatedBulletRB.AddForce(transform.up * bulletSpeed, ForceMode2D.Impulse);
             Destroy(instantiatedBullet, 10f);
