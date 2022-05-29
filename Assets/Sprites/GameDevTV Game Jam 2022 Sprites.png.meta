@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_0
+      name: Block 3 Sprite
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2cbc530670de6143a0272c8baf3e9b0
-      internalID: 891289542
+      spriteID: 71ecd6e712b68dc4782f104121fa4cfc
+      internalID: 1061148499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_2
+      name: Spikes Sprite
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa2c979dad461840b439a4de6eef3bf
+      internalID: -1954084433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat Run 2 Sprite
       rect:
         serializedVersion: 2
         x: 252
@@ -133,20 +154,20 @@ TextureImporter:
         width: 68
         height: 64
       alignment: 9
-      pivot: {x: 0.5294118, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 066270a97051cee40a22797d50f3656f
-      internalID: 986626138
+      spriteID: 8fc157c4706126142a33a28446599b41
+      internalID: -1894760551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_4
+      name: Cat Land Sprite
       rect:
         serializedVersion: 2
         x: 380
@@ -154,20 +175,41 @@ TextureImporter:
         width: 68
         height: 64
       alignment: 9
-      pivot: {x: 0.5294118, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2b063bc53a0a674b91cabd8750ab6ec
-      internalID: 1190759975
+      spriteID: 613a8bfbea6f3e84dabb380f2b02bced
+      internalID: 1259628683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_5
+      name: Cat Neutral In Air Sprite
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 128
+        width: 72
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98739127697b3da49853d44823dfa444
+      internalID: -461543420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block 2 Sprite
       rect:
         serializedVersion: 2
         x: 0
@@ -181,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae7b652e5d0cf5e4ba2058542d33c766
-      internalID: -892863310
+      spriteID: 1c22a045fec4f8c4c900203fee770649
+      internalID: 263366272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_6
+      name: Water Bullet Sprite
       rect:
         serializedVersion: 2
         x: 64
@@ -202,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a0c89b613b487d4c8d7b7faf5d66dfa
-      internalID: -1044118251
+      spriteID: a79d6b4f274391e4d8ad0c29d258b52f
+      internalID: 1047509444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_7
+      name: Catnip Sprite
       rect:
         serializedVersion: 2
         x: 128
@@ -223,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bed8866a7737794c90583b0e3f3a524
-      internalID: 196781302
+      spriteID: 0dbc606480b648e4fab2c0d3d0cac21c
+      internalID: -1371058778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_9
+      name: Cat Run 1 Sprite
       rect:
         serializedVersion: 2
         x: 248
@@ -238,20 +280,20 @@ TextureImporter:
         width: 72
         height: 64
       alignment: 9
-      pivot: {x: 0.5555556, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1beae18d599ffc44ba4ce16fde760f8
-      internalID: -801244027
+      spriteID: 800072e5db8327b40b49c861412a46a2
+      internalID: 560213241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_11
+      name: Cat Falling Sprite
       rect:
         serializedVersion: 2
         x: 376
@@ -259,20 +301,41 @@ TextureImporter:
         width: 72
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db9fcfc6b8978d14d823cdc2125f5bd4
-      internalID: -803225574
+      spriteID: 5fdaf0781e1d7df4ca23476f9d6a3a4e
+      internalID: 597146005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_12
+      name: Cat Idle 3 Sprite
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 64
+        width: 68
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b6082f121ccb041a94b9931e9917b5
+      internalID: 1649934258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block 1 Sprite
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c80e591d7d2909e42ab4a87c9edc0de8
-      internalID: -228938016
+      spriteID: 0f53b10dbc276a14d8dbde20a101cb30
+      internalID: -560501488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_13
+      name: Water Gun Sprite
       rect:
         serializedVersion: 2
         x: 64
@@ -307,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5357493d4253bfc4e8fc1d0cf64ce339
-      internalID: 1282738556
+      spriteID: da0036654449cfa46a3080798e4731f6
+      internalID: -1462791125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_14
+      name: Flagpole Sprite
       rect:
         serializedVersion: 2
         x: 128
@@ -328,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 782261468fee6b74b9b79f9c393ff985
-      internalID: 471846719
+      spriteID: 7dcce91b70d049c48ace2f631d92080e
+      internalID: -620504555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_16
+      name: Cat Idle 1 Sprite
       rect:
         serializedVersion: 2
         x: 252
@@ -343,20 +406,20 @@ TextureImporter:
         width: 68
         height: 64
       alignment: 9
-      pivot: {x: 0.5294118, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebb7b442f8d4f7e419dd03be0c3b13be
-      internalID: 1683287028
+      spriteID: 3e1f7ad125736484baee44bc98766146
+      internalID: 1479830459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameDevTV Game Jam 2022 Sprites_18
+      name: Cat Jumping Sprite
       rect:
         serializedVersion: 2
         x: 380
@@ -364,14 +427,35 @@ TextureImporter:
         width: 68
         height: 64
       alignment: 9
-      pivot: {x: 0.5294118, y: 0.359375}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6fba478b21698248a8f3b983518d782
-      internalID: -82899969
+      spriteID: a0bb6e3e9f8da03478a51261b5848f33
+      internalID: 1440623747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat Idle 2 Sprite
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 72
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165766c08bf749d47a931b3322c596dd
+      internalID: 164216924
       vertices: []
       indices: 
       edges: []
@@ -387,25 +471,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GameDevTV Game Jam 2022 Sprites_7: 196781302
-      GameDevTV Game Jam 2022 Sprites_3: 1077206108
-      GameDevTV Game Jam 2022 Sprites_11: -803225574
-      GameDevTV Game Jam 2022 Sprites_2: 986626138
-      GameDevTV Game Jam 2022 Sprites_17: 1041524683
-      GameDevTV Game Jam 2022 Sprites_0: 891289542
-      GameDevTV Game Jam 2022 Sprites_14: 471846719
-      GameDevTV Game Jam 2022 Sprites_1: -2055363402
-      GameDevTV Game Jam 2022 Sprites_16: 1683287028
-      GameDevTV Game Jam 2022 Sprites_6: -1044118251
-      GameDevTV Game Jam 2022 Sprites_10: 421819629
-      GameDevTV Game Jam 2022 Sprites_18: -82899969
-      GameDevTV Game Jam 2022 Sprites_4: 1190759975
-      GameDevTV Game Jam 2022 Sprites_12: -228938016
-      GameDevTV Game Jam 2022 Sprites_8: -27174166
-      GameDevTV Game Jam 2022 Sprites_13: 1282738556
-      GameDevTV Game Jam 2022 Sprites_15: -296726336
-      GameDevTV Game Jam 2022 Sprites_5: -892863310
-      GameDevTV Game Jam 2022 Sprites_9: -801244027
+      GameDevTV Game Jam 2022 Sprites_24: 708888491
+      Block 1 Sprite: -560501488
+      Block 2 Sprite: 263366272
+      Cat Land Sprite: 1259628683
+      Cat Neutral In Air Sprite: -461543420
+      GameDevTV Game Jam 2022 Sprites_11: 1788084882
+      Cat Run 2 Sprite: -1894760551
+      GameDevTV Game Jam 2022 Sprites_20: 73080533
+      Cat Idle 1 Sprite: 1479830459
+      Block 3 Sprite: 1061148499
+      GameDevTV Game Jam 2022 Sprites_2: -790180181
+      Cat Idle 3 Sprite: 1649934258
+      Flagpole Sprite: -620504555
+      Cat Idle 2 Sprite: 164216924
+      Cat Falling Sprite: 597146005
+      Water Bullet Sprite: 1047509444
+      Catnip Sprite: -1371058778
+      Cat Jumping Sprite: 1440623747
+      Spikes Sprite: -1954084433
+      GameDevTV Game Jam 2022 Sprites_6: -68716057
+      GameDevTV Game Jam 2022 Sprites_4: -1710990000
+      Cat Run 1 Sprite: 560213241
+      GameDevTV Game Jam 2022 Sprites_13: 951827791
+      GameDevTV Game Jam 2022 Sprites_15: 1463426065
+      GameDevTV Game Jam 2022 Sprites_22: 18777324
+      Water Gun Sprite: -1462791125
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
