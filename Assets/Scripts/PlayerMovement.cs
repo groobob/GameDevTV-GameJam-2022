@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float m_MovementSpeed = 1.0f;
     [SerializeField] float m_JumpForce = 3.0f;
+    [SerializeField] float m_Aircontrol = 1.0f;
     [SerializeField] Animator m_Animator;
     [SerializeField] SpriteRenderer m_Renderer;
 
@@ -18,6 +19,18 @@ public class PlayerMovement : MonoBehaviour
         if (!m_Grounded)
         {
             m_Velocity += Physics.gravity * Time.fixedDeltaTime;
+
+            if (a_Input.Left)
+            {
+                m_Velocity.x -= m_Aircontrol * Time.fixedDeltaTime;
+            }
+
+            if (a_Input.Right)
+            {
+                m_Velocity.x += m_Aircontrol * Time.fixedDeltaTime;
+            }
+
+            m_Velocity.x = Mathf.Clamp(m_Velocity.x, -m_MovementSpeed, m_MovementSpeed);
         }
         else
         {
