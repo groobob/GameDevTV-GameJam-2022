@@ -16,8 +16,18 @@ public class Bullet : MonoBehaviour
         Bullets.Remove(this);
     }
 
-    void OnCollisionEnter2D()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-
+        PlayerInput input = collision.gameObject.GetComponent<PlayerInput>();
+        Debug.Log("urmommy");
+        if (input != null)
+        {
+            Debug.Log("pog!");
+            PlayerInput.Instance.ResetLevel();
+        }
+        else 
+        {
+            Destroy(gameObject);
+        }
     }
 }

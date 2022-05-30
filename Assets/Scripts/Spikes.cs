@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
-    [SerializeField] GameObject player;
-    private PlayerInput playerInputScript;
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject == player)
+        Debug.Log("urmommy");
+        PlayerInput input = collision.gameObject.GetComponent<PlayerInput>();
+        if (input != null)
         {
-            playerInputScript.ResetLevel();
+            Debug.Log("pog!");
+            PlayerInput.Instance.ResetLevel();
+            Destroy(gameObject);
+        }
+        else
+        {
+
         }
     }
 }
