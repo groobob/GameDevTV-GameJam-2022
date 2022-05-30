@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
+    public static PlayerInput Instance { get; private set; }
+
     [SerializeField] PlayerMovement m_Movement;
     [SerializeField] GhostInput m_GhostPrefab;
 
@@ -20,6 +22,8 @@ public class PlayerInput : MonoBehaviour
     public void Awake()
     {
         m_SpawnPoint = transform.position;
+
+        Instance = this;
     }
 
     public void ResetLevel()
