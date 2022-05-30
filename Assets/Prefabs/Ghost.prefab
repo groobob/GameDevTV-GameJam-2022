@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5534725537936620223, guid: bbd5068056910354db363d05c1f54772, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6975052319847721904, guid: bbd5068056910354db363d05c1f54772, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -57,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6975052319847721917, guid: bbd5068056910354db363d05c1f54772, type: 3}
       propertyPath: m_Name
-      value: Replay
+      value: Ghost
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -8279308681396494036, guid: bbd5068056910354db363d05c1f54772, type: 3}

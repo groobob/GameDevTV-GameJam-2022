@@ -21,4 +21,8 @@ public class TurretFire : MonoBehaviour
             cooldown -= firerate;
         }
     }
+    public void ResetTimer()
+    {
+        cooldown = 0;
+    }
 }

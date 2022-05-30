@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float m_Aircontrol = 1.0f;
     [SerializeField] Animator m_Animator;
     [SerializeField] SpriteRenderer m_Renderer;
+    [SerializeField] LayerMask layer;
 
     Vector3 m_Velocity;
 
@@ -77,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         while (m_ScaledVelocity.magnitude > 0.0001f)
         {
             // Check for collision before moving
-            RaycastHit2D _Hit = Physics2D.BoxCast(transform.position, new Vector2(1.0f, 1.0f), 0, m_ScaledVelocity.normalized, m_ScaledVelocity.magnitude);
+            RaycastHit2D _Hit = Physics2D.BoxCast(transform.position, new Vector2(1.0f, 1.0f), 0, m_ScaledVelocity.normalized, m_ScaledVelocity.magnitude, layer);
 
             if (_Hit)
             {
@@ -107,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Check for ground
-        RaycastHit2D _GroundHit = Physics2D.BoxCast(transform.position, new Vector2(1.0f, 1.0f), 0, -Vector2.up, 0.01f);
+        RaycastHit2D _GroundHit = Physics2D.BoxCast(transform.position, new Vector2(1.0f, 1.0f), 0, -Vector2.up, 0.01f, layer);
 
         if (_GroundHit)
         {
