@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5562349551255066890}
   - component: {fileID: 4106933309246302501}
   - component: {fileID: 1392955973032466874}
+  - component: {fileID: 501593815710289888}
   m_Layer: 0
   m_Name: Water Bullet
   m_TagString: Untagged
@@ -106,3 +107,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &501593815710289888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911637594240792536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7a63a251d4c634fb52e64b4d3063d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

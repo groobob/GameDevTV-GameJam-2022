@@ -44,6 +44,11 @@ public class PlayerInput : MonoBehaviour
 
             m_Ghosts.Add(_Ghost);
         }
+
+        for (int i = 0; i < Bullet.Bullets.Count; i++)
+        {
+            Destroy(Bullet.Bullets[i].gameObject);
+        }
     }
 
     void Update()
