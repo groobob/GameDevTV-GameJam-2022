@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
         Bullets.Remove(this);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerInput input = collision.gameObject.GetComponent<PlayerInput>();
         if (input != null)

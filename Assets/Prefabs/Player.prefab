@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -8279308681396494036}
   - component: {fileID: 5016970022002927664}
   - component: {fileID: -5534725537936620223}
+  - component: {fileID: 1684033148}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -100,14 +101,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce69d0ee034ed9a4090b1a777a5123aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovementSpeed: 2
-  m_JumpForce: 6
-  m_Aircontrol: 4
+  m_MovementSpeed: 4
+  m_JumpForce: 8
+  m_Aircontrol: 10
   m_Animator: {fileID: 5016970022002927664}
   m_Renderer: {fileID: 6975052319847721907}
   layer:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 247
 --- !u!114 &-8279308681396494036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +153,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.031433344, y: 0}
@@ -168,3 +169,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0621336, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &1684033148
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6975052319847721917}
+  m_BodyType: 0
+  m_Simulated: 0
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
